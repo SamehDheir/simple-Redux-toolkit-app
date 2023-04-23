@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+}
+
+.header h1 {
+    font-size: 40px;
+}
+.header p {
+    font-size: 20px;
+}
