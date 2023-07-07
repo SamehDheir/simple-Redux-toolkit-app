@@ -3,7 +3,7 @@ import "./Sidebar.css";
 import { useSelector } from "react-redux";
 
 function Sidebar() {
-  const { email } = useSelector((state) => state.user);
+  const { email } = useSelector((state) => state.user.userData);
   return (
     <div className="sidebar">
       <ul>

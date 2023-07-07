@@ -3,7 +3,7 @@ import "./Header.css";
 import { useSelector } from "react-redux";
 
 function Header() {
-  const { name } = useSelector((state) => state.user);
+  const { name } = useSelector((state) => state.user.userData);
   return (
     <div className="header">
       <h1>Sameh</h1>
